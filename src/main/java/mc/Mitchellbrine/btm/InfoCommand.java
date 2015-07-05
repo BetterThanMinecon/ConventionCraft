@@ -25,19 +25,19 @@ public class InfoCommand implements ICommand {
 	public InfoCommand()
 	{
 		this.aliases = new ArrayList();
-		this.aliases.add("i");
+		this.aliases.add("con");
 	}
 
 	@Override
 	public String getCommandName()
 	{
-		return "info";
+		return "convention";
 	}
 
 	@Override
 	public String getCommandUsage(ICommandSender icommandsender)
 	{
-		return "/info [player/panel/booth/reload] [booth name/panel name]";
+		return "/convention [player/panel/booth/reload] [booth name/panel name]";
 	}
 
 	@Override
